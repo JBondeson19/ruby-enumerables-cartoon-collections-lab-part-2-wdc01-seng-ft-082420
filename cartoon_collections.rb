@@ -31,4 +31,5 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.find do |valid_calls|
    valid_calls == "Earth!" && "Wind!"
   end
+  valid_calls
 end
